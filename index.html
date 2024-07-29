@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResumeGPT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>ResumeGPT</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="intro">
+            <h2>Create Your Resume with AI</h2>
+            <p>Enter your details below and let our AI generate a professional resume for you!</p>
+        </section>
+
+        <section id="form-section">
+            <form id="resume-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="contact">Contact:</label>
+                <input type="text" id="contact" name="contact" required>
+
+                <label for="experience">Experience:</label>
+                <input type="text" id="experience" name="experience" required>
+
+                <label for="education">Education:</label>
+                <input type="text" id="education" name="education" required>
+
+                <label for="skills">Skills:</label>
+                <input type="text" id="skills" name="skills" required>
+
+                <button type="submit">Generate Resume</button>
+            </form>
+        </section>
+
+        <section id="output-section">
+            <h2>Your Generated Resume</h2>
+            <div id="output"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Contact us at info@example.com</p>
+        <p>Follow us on <a href="#">Github</a> and <a href="#">Tstory</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
